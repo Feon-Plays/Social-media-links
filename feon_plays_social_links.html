@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feon Plays | Social Links</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background:
+      radial-gradient(circle at 50% 10%, rgba(0, 170, 255, .20), transparent 32%),
+      linear-gradient(160deg, #020408 0%, #06111a 55%, #020408 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 16px;
+  }
+  .card {
+    width: min(430px, 100%);
+    background: rgba(5, 10, 16, .88);
+    border: 1px solid rgba(0, 191, 255, .35);
+    border-radius: 24px;
+    padding: 32px 22px 24px;
+    box-shadow: 0 0 35px rgba(0, 174, 255, .16);
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  .avatar {
+    width: 86px;
+    height: 86px;
+    margin: 0 auto 14px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 31px;
+    font-weight: 900;
+    color: #7ddfff;
+    border: 2px solid #00bfff;
+    background: #03080d;
+    box-shadow: 0 0 22px rgba(0, 191, 255, .45);
+  }
+  h1 {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: .5px;
+  }
+  .tagline {
+    margin: 8px 0 25px;
+    color: #9bdcf5;
+    font-size: 14px;
+  }
+  .links {
+    display: grid;
+    gap: 13px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    padding: 15px 17px;
+    border-radius: 15px;
+    background: linear-gradient(100deg, #08131c, #0a1822);
+    border: 1px solid rgba(0, 191, 255, .28);
+    transition: .2s ease;
+  }
+  .link:hover {
+    transform: translateY(-2px);
+    border-color: #00bfff;
+    box-shadow: 0 0 18px rgba(0, 191, 255, .22);
+  }
+  .icon {
+    width: 43px;
+    height: 43px;
+    flex: 0 0 43px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+    background: #031019;
+    color: #4dd7ff;
+    font-weight: 900;
+    font-size: 17px;
+    border: 1px solid rgba(0, 191, 255, .3);
+  }
+  .name {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .handle {
+    margin-top: 3px;
+    color: #8ba8b7;
+    font-size: 12px;
+  }
+  footer {
+    margin-top: 22px;
+    color: #55717f;
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">FP</div>
+    <h1>Feon Plays</h1>
+    <p class="tagline">Minecraft Content Creator 🎮</p>
+
+    <section class="links">
+      <a class="link" href="https://instagram.com/feon_plays" target="_blank" rel="noopener noreferrer">
+        <span class="icon">IG</span>
+        <span><div class="name">Instagram</div><div class="handle">@feon_plays</div></span>
+      </a>
+
+      <a class="link" href="https://x.com/Feon_Plays" target="_blank" rel="noopener noreferrer">
+        <span class="icon">X</span>
+        <span><div class="name">X</div><div class="handle">@Feon_Plays</div></span>
+      </a>
+
+      <a class="link" href="https://facebook.com/FeonPlays" target="_blank" rel="noopener noreferrer">
+        <span class="icon">f</span>
+        <span><div class="name">Facebook</div><div class="handle">Feon Plays</div></span>
+      </a>
+
+      <a class="link" href="https://www.youtube.com/@Feon_Plays" target="_blank" rel="noopener noreferrer">
+        <span class="icon">▶</span>
+        <span><div class="name">YouTube</div><div class="handle">@Feon_Plays</div></span>
+      </a>
+    </section>
+
+    <footer>© Feon Plays</footer>
+  </main>
+</body>
+</html>
